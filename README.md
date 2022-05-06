@@ -2,11 +2,10 @@
 
 PROJE HAKKINDA:
 - Proje iki modülden oluşmaktadır:  "RealtimePushServer" ve "ConsoleMultiThread". 
--"RealtimePushServer": SignalR web socket impelementasyonunu başlatır. Ve Realtime haberleşme olanağı sağlar.
-  http://localhost:44990  adresinden çalışır.  
+- RealtimePushServer: SignalR web socket impelementasyonunu başlatır. Ve Realtime haberleşme olanağı sağlar.
   Browser üzerinde birden fazla açılabilir, bu sayede veriler farklı Browseralrdan cablı izlenebilir.
-
--"ConsoleMultiThread": Tespit edilen Roket sayısı kadar TCP Client açar ve SignalR üzerinden Canlı TCP datası önyüze push edilir.
+  Proje http://localhost:44990  adresinden çalışır.
+- ConsoleMultiThread: Tespit edilen Roket sayısı kadar TCP Client açar ve SignalR üzerinden Canlı TCP datası önyüze push edilir.
 
 # NOTLAR - Known Issues:
 - API rety lar için Microservis yakalaşımı Retry patetrn + Circuit Breaker kullanılaibilir.

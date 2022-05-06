@@ -17,3 +17,7 @@ PROJE HAKKINDA:
 -"RocketLauncherServer.sln"  çift tıklanarak VS2022 de proje açılır.
 - Sln dosyası üzerinde Sağ Click -> Rebuild Solution  yapılır.  
 - Run/Baştan butonu ile sıralı olarak projeler ayağa kalkar.(Sırayla "RealtimePushServer" --> "ConsoleMultiThread")
+
+
+
+![demo2](https://user-images.githubusercontent.com/49819371/167137431-a980cb3f-d152-49ef-bc3d-e0681c4b93bf.jpg)

@@ -19,15 +19,13 @@ PROJE HAKKINDA:
 -"RocketLauncherServer.sln"  çift tıklanarak VS2022 de proje açılır.
 - Sln dosyası üzerinde Sağ Click -> Rebuild Solution  yapılır.  
 - Run/Baştan butonu ile sıralı olarak projeler ayağa kalkar.(Sırayla "RealtimePushServer" --> "ConsoleMultiThread")
-  NOT: Projelerin Sıralı Çalışması için ("Multiple Startup")  VS2022 de Solution Ayarı aşağıdaki gibi olmalıdır.
-
-# ÖRNEK EKRAN GÖRÜNTÜSÜ :
-Sol tarafta  "ConsoleMultiThread"  konsol uygulaması API den aldığı Roket Telemetry verilerini dinler.
-Sağ tarafta görünen önyüz üzerinde ilgili veriler görüntülenir.
-
-
+  
+# NOT: 
+Projelerin Sıralı Çalışması için ("Multiple Startup")  VS2022 de Solution Ayarı aşağıdaki gibi olmalıdır.
 ![demo3](https://user-images.githubusercontent.com/49819371/167145119-f1ad2b03-2bd6-44a1-9d2a-84cba9eb50e5.jpg)
 
-
+# Ekran görüntüsü :
+Sol tarafta "ConsoleMultiThread"  konsol uygulaması API den aldığı Roket Telemetry verilerini dinler.
+Sağ tarafta görünen önyüz üzerinde ilgili veriler görüntülenir.
 
 ![demo2](https://user-images.githubusercontent.com/49819371/167137431-a980cb3f-d152-49ef-bc3d-e0681c4b93bf.jpg)

@@ -3,6 +3,9 @@
 PROJE HAKKINDA:
 - Proje iki modülden oluşmaktadır:  "RealtimePushServer" ve "ConsoleMultiThread". 
 -"RealtimePushServer": SignalR web socket impelementasyonunu başlatır. Ve Realtime haberleşme olanağı sağlar.
+  http://localhost:44990  adresinden çalışır.  
+  Browser üzerinde birden fazla açılabilir, bu sayede veriler farklı Browseralrdan cablı izlenebilir.
+
 -"ConsoleMultiThread": Tespit edilen Roket sayısı kadar TCP Client açar ve SignalR üzerinden Canlı TCP datası önyüze push edilir.
 
 # NOTLAR - Known Issues:
@@ -19,5 +22,8 @@ PROJE HAKKINDA:
 - Run/Baştan butonu ile sıralı olarak projeler ayağa kalkar.(Sırayla "RealtimePushServer" --> "ConsoleMultiThread")
 
 
+ÖRNEK EKRAN GÖRÜNTÜSÜ :
+Sol tarafta  "ConsoleMultiThread"  konsol uygulaması API den aldığı Roket Telemetry verilerini dinler.
+Sağ tarafta görünen önyüz üzerinde ilgili veriler görüntülenir.
 
 ![demo2](https://user-images.githubusercontent.com/49819371/167137431-a980cb3f-d152-49ef-bc3d-e0681c4b93bf.jpg)

@@ -26,6 +26,6 @@ Projelerin Sıralı Çalışması için ("Multiple Startup")  VS2022 de Solution
 
 # Ekran görüntüsü :
 Sol tarafta "ConsoleMultiThread"  konsol uygulaması API den aldığı Roket Telemetry verilerini dinler.
-Sağ tarafta görünen önyüz üzerinde ilgili veriler görüntülenir.
+Elde edilen TCP veriler Sağ tarafta görünen önyüz ekranına SignalR üzerinden push edilir.
 
 ![demo2](https://user-images.githubusercontent.com/49819371/167137431-a980cb3f-d152-49ef-bc3d-e0681c4b93bf.jpg)

@@ -26,7 +26,7 @@ Sol tarafta  "ConsoleMultiThread"  konsol uygulaması API den aldığı Roket Te
 Sağ tarafta görünen önyüz üzerinde ilgili veriler görüntülenir.
 
 
-Projenin Sıralı Çalışması için Solution Ayarı :
+# Projelerin Sıralı Çalışması için ("Multiple Startup")  VS2022 de Solution Ayarı : 
 
 ![demo3](https://user-images.githubusercontent.com/49819371/167145119-f1ad2b03-2bd6-44a1-9d2a-84cba9eb50e5.jpg)
 

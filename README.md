@@ -8,25 +8,23 @@ PROJE HAKKINDA:
 - ConsoleMultiThread: Tespit edilen Roket sayısı kadar TCP Client açar ve SignalR üzerinden Canlı TCP datası önyüze push edilir.
 
 # NOTLAR - Known Issues:
-- API rety lar için Microservis yakalaşımı Retry patetrn + Circuit Breaker kullanılaibilir.
-- Refactoring => Best practice olarak Json datadaki Int/Double alanlar string e çevrildi. Type safety düşünülebilir.
-- UI arayüzde görselleştirme yarım kaldı. 
+- API rety lar iyileştirilebilir. Microservis senaryolarında Retry patetrn + Circuit Breaker kullanılaibilir.
+- Refactoring => Json apimodelinedeki tüm Int/Double alanlar string e çevrildi. Type safety düşünülebilir.
+- UI arayüzde görselleştirme eksikler mevcut.
 - Persistent data yapısı kurumadı. (UI refresh olunca veri tazelenemiyor.)
-- Rocket gönderme operasyonu henüz tamamlanamadı.
+- Rocket gönderme operasyonu yapılmadı.
 - Unit test ilave edilemedi.
 
 # PROJEYİ ÇALIŞTIRMA ve TEST etme :
 -"RocketLauncherServer.sln"  çift tıklanarak VS2022 de proje açılır.
 - Sln dosyası üzerinde Sağ Click -> Rebuild Solution  yapılır.  
 - Run/Baştan butonu ile sıralı olarak projeler ayağa kalkar.(Sırayla "RealtimePushServer" --> "ConsoleMultiThread")
+  NOT: Projelerin Sıralı Çalışması için ("Multiple Startup")  VS2022 de Solution Ayarı aşağıdaki gibi olmalıdır.
 
-
-ÖRNEK EKRAN GÖRÜNTÜSÜ :
+# ÖRNEK EKRAN GÖRÜNTÜSÜ :
 Sol tarafta  "ConsoleMultiThread"  konsol uygulaması API den aldığı Roket Telemetry verilerini dinler.
 Sağ tarafta görünen önyüz üzerinde ilgili veriler görüntülenir.
 
-
-# Projelerin Sıralı Çalışması için ("Multiple Startup")  VS2022 de Solution Ayarı : 
 
 ![demo3](https://user-images.githubusercontent.com/49819371/167145119-f1ad2b03-2bd6-44a1-9d2a-84cba9eb50e5.jpg)
 

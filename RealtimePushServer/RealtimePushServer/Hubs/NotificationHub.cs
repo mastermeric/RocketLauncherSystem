@@ -18,14 +18,7 @@ namespace RealtimePushServer.Hubs
             await Clients.All.SendAsync("ReceiveMessage", gonderen, message);
             Console.WriteLine("message ==>" + gonderen + " -> " + message);
         }
-
-        public async Task CheckVersion(float newX, float newY)
-        {
-            await Clients.Others.SendAsync("mySignalFonksiyon", newX, newY);
-            //await Clients.All.SendAsync("mySignalFonksiyon", newX, newY);
-            Console.WriteLine("Bilgi Geldi..." + newX + " VE " + newY);
-        }
-
+        
         public override async Task OnConnectedAsync()
         {
             //Set value in Session object.

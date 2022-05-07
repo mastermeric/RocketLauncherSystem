@@ -42,11 +42,7 @@ namespace ConsoleMultiThread
                 Console.WriteLine("-----------------------------------------------------");                                
 
                 foreach (RocketModel item in _roketler)
-                {                    
-                    //Console.WriteLine("Model: " + item.model+ " |  Mass: " + item.mass + " | Status: " + item.status);
-                    //Console.WriteLine(item.payload.description);
-                    //Console.WriteLine("..........");
-
+                { 
                     IPAddress _ipAddress = IPAddress.Parse(item.telemetry.host);
                     int _port = int.Parse(item.telemetry.port);
 
